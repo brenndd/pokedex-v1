@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(./pokemon-g716c98bff_1280.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+    color: yellow;
+    -webkit-text-stroke: 1px blue;
+    margin: 1.5rem;
+}
+header{
+    margin: 0.3rem;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+nav .search{
+    display: flex;
+    width: 29rem;
+    height: 2.4rem;
+    border: solid 0.2rem black;
+    border-radius: 1rem;
+    justify-content: center;
+}
+nav .search .search-box{
+    outline: none;
+    border: none;
+    background: none;
+    margin-left: 0.3rem;
+    width: 24rem;
+}
+nav .search .search-icon {
+    width: 1.4rem;
+    height: 1.4;
+    margin-left: 1rem;
+    border-radius: 50%;
+}
+
+nav .search .search-icon:active{
+    box-shadow: 0 1px 6px 0 #20212447;
+    transform:translateY(0.2rem);
+}
+main{
+    width: 100%;
+    height: auto;
+
+}
+main section .pokedex-container{
+    display: flex;
+    align-items: center;
+}
+main section .pokedex{
+    width: 38rem;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: red;
+    border-radius: 1.5rem;
+    box-shadow: 0.1rem 0.1rem 0.6rem 0.1rem #20212447;
+}
+main section .description-container .box-description{
+    width: 28rem;
+    height: 50rem;
+    background-color: aliceblue;
+    margin: 0 auto;
+    border-radius: 0.7rem;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+main section .description-container{
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+main section .button-container{
+   display: flex;
+   flex-direction: column;
+   margin-top: 3rem; 
+}
+main section .button-container .left-buttons{
+    align-items: flex-start;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+main section .button-container .rigth-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 5rem;
+    margin-right: 2rem;
+}
+
+main section figure {
+    width: 10rem;
+    height: auto;
+    position: relative;
+    right: 20rem;
+    top: 3rem;
+}
+
+main section figure img {
+    width: 9rem;
+    height: auto;
+}
+.b-center {
+    width: 12rem;
+    display: flex;
+    justify-content: space-around;
+}
+.up{
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 0.2rem;
+    border: none;
+    margin-right: 4.4rem;
+    margin-bottom: 0;
+    height: 4rem;
+}
+.up:active {
+    background-color: #080808;
+    transform: translateY(-0.2rem);
+}
+.down{
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 0.2rem;
+    border: none;
+    margin-right: 4.4rem;
+    height: 4rem;
+}
+.down:active {
+    background-color: #080808;
+    transform: translateY(0.2rem);
+}
+.left {
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 0.2rem;
+    border: none;
+    margin-bottom: 0.2rem;
+    width: 4rem;
+}
+.left:active {
+    background-color: #080808;
+    transform: translateX(-0.2rem);
+}
+.rigth {
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 0.2rem;
+    border: none;
+    margin-bottom: 0.2rem;
+    width: 4rem;
+ 
+}
+.rigth:active {
+    background-color: #080808;
+    transform: translateX(0.2rem);
+}
+button{
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 0.6rem;
+    box-shadow: 0 1px 6px 0 #050505a2;
+}
+.blues{
+    border-radius: 50%;
+    border: none;
+    margin-right: 2rem;
+    position: relative;
+    top: 2rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(11, 11, 117);
+}
+.whites{
+    border-radius: 50%;
+    border: none;
+    margin-right: 2rem;
+    position: relative;
+    top: 6rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(253, 253, 253);
+}
+.blues:active{
+    background-color: #170646;
+    transform:translateY(0.2rem);
+}
+.whites:active{
+    background-color: #f1ebe9;
+    transform:translateY(0.2rem);
+}

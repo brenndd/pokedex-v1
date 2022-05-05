@@ -1,0 +1,40 @@
+main{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 4rem;
+}
+nav .search{
+    width: 50rem;
+    height: 4rem;
+}
+nav .search .search-box{
+    margin-left: 0.3rem;
+    width: 39rem;
+}
+nav .search .search-icon {
+    width: 2.5rem;
+    height: 3rem;
+    margin-top: 0.3rem;
+}
+main section .pokedex{
+    width: 80rem;
+    height: auto;
+}
+main section .description-container .box-description{
+    width: 72rem;
+    height: 56rem;
+}
+main section figure {
+    width: 20rem;
+    height: auto;
+    position: relative;
+    right: 47rem;
+    top: 4rem;
+}
+main section figure img {
+    width: 20rem;
+    height: auto;
+}

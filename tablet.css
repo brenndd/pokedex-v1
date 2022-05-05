@@ -1,0 +1,27 @@
+main{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main section .pokedex{
+    width: 58rem;
+    height: auto;
+}
+main section .description-container .box-description{
+    width: 50rem;
+    height: 56rem;
+    font-size: 1.6rem;
+    padding: 2rem;
+    padding-left: 4rem;
+}
+main section figure {
+    width: 20rem;
+    height: auto;
+    position: relative;
+    right: 33rem;
+    top: 4rem;
+}
+main section figure img {
+    width: 18rem;
+    height: auto;
+}
