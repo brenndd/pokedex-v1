@@ -11,3 +11,5 @@ result.addEventListener("click", search);
  {
      pokemonFound.innerHTML = api + "/" + poke.value; 
  }
+// nunca he mandado llamar una API ni he usado por lo que por el momento aún no se como hacerlo, hasta este punto solo he aprendido lo básico de JS,
+// y continuo aprendiendo
